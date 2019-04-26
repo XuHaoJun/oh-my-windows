@@ -1,20 +1,16 @@
-# QuickStart
+# oh-my-windows
 
-1. Install [Chocolatey](https://chocolatey.org/) package manager, a lot of packages easy to find and install.
+Automatic install my windows softwares.
 
-```cmd
-:: cmd
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-```
+## QuickStart
 
-1. Install [Scoop](https://scoop.sh/) command-line installer for install my custom packages.
+- [Chocolatey](https://chocolatey.org/) package manager, for most packages.
 
-```powershell
-# powershell
-set-executionpolicy remotesigned -s currentuser
-iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
-```
+- [Scoop](https://scoop.sh/) command-line installer, for custom packages.
 
-1. Run `install_packages.cmd` as Administrator or choco install sudo and run `sudo . .\install_packages.cmd`.
+Run `install.cmd` and will request permission for global install, `chocolatey-packages.config` and `scoop-packages.txt` is list of packages.
 
-1. Run `setup_package.ps1` for setup packages.
+## TODO
+
+1. Add Line, NoxPlayer and Battle.net package.
+2. Migrate chocolatey to scoop.

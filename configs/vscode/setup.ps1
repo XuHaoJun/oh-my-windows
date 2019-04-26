@@ -5,8 +5,8 @@ $syncSettingsPath = [IO.Path]::Combine($env:APPDATA, "Code\User\syncLocalSetting
 if (Test-Path -Path $syncSettingsPath) {
   $text = (Get-Content -Path $syncSettingsPath -Raw)
   $json = @{ }
-  (ConvertFrom-Json $text).psobject.properties | Foreach { $json[$_.Name] = $_.Value }
-  if ([string]::IsNullOrEmpty($hashtable['token'])) {
+  (ConvertFrom-Json $text).psobject.properties | ForEach-Object { $json[$_.Name] = $_.Value }
+  if ([string]::IsNullOrEmpty($json['token'])) {
     if ($force) {
     } else {
     }

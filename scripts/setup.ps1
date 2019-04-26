@@ -20,7 +20,7 @@ foreach ($k in $options.Keys) {
 
 
 foreach ($pkg in $packages) {
-  $configPath = [IO.Path]::Combine($PSScriptRoot, 'configs', $pkg)
+  $configPath = [IO.Path]::Combine($PSScriptRoot, '../configs', $pkg)
   $setupScript = [IO.Path]::Combine($configPath, 'setup.ps1')
   if ((Test-Path -Path $configPath) -And (Test-Path -Path $setupScript)) {
     Set-Location -Path $configPath

@@ -8,6 +8,7 @@ extras/tor-browser
 
 Ash258/Aida64
 Ash258/PathOfBuilding
+Ash258/Uplay
 
 xuhaojun/blueskyfrc
 xuhaojun/copytranslator

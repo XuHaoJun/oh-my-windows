@@ -1,0 +1,11 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.13.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Sat Apr  6 22:57:25 2019"
+  rime_version: 1.4.0
+patch:
+  schema_list:
+    - {schema: bopomofo_tw}
+  "menu/page_size": 9
+  "switcher/hotkeys": []

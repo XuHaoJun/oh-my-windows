@@ -12,5 +12,5 @@ Run `install.cmd` and will request permission for global install, `chocolatey-pa
 
 ## TODO
 
-1. Add Line, NoxPlayer and Battle.net package.
+1. Add Line, NoxPlayer, Rime and Battle.net package.
 2. Migrate chocolatey to scoop.

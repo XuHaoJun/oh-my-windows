@@ -1,10 +1,34 @@
+aria2
 sudo
 curl
 7zip
+coreutils
+which
+vim
+cmder-full
+python
+nodejs
+nvm
+yarn
 
+extras/autohotkey
 extras/bleachbit
 extras/cpu-v
 extras/tor-browser
+extras/putty
+extras/cpu-z
+extras/gpu-z
+extras/ssd-z
+extras/ddu
+extras/coretemp
+extras/hwmonitor
+extras/crystaldiskinfo
+extras/crystaldiskmark
+extras/vlc
+extras/sharpkeys
+extras/anydesk
+extras/winscp
+extras/persepolis
 
 Ash258/Aida64
 Ash258/PathOfBuilding

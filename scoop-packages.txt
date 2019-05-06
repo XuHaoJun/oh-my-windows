@@ -31,6 +31,7 @@ extras/sharpkeys
 extras/anydesk
 extras/winscp
 extras/persepolis
+extras/qbittorrent
 
 Ash258/Aida64
 Ash258/PathOfBuilding
